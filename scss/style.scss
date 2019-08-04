@@ -1,3 +1,17 @@
-:host {
-    box-sizing: border-box;
-}
+// Настройки шрифтов
+@import 'fonts';
+
+// Настройки цвета
+@import 'colors';
+
+// Базовые настройки сетки
+@import 'grid';
+
+// Шапка сайта
+@import 'blocks/navbar';
+
+// Блок hero
+@import 'blocks/hero';
+
+// Настройки интерфейса
+@import 'interface';
